@@ -36,7 +36,7 @@ def read_image_as_array(file_path):
         
         return multispectral_array
     
-image_test = read_image_as_array("/Users/nitaishah/Desktop/ECEN-PROJECT/Segmentation_Masking/Input/Input_GeoFs.png")
+image_test = read_image_as_array("Input/Input_GeoFs.png")
 plt.imshow(image_test.transpose(2,1,0))
 
 def pad_image(image, tile_size):
