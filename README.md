@@ -8,3 +8,8 @@ RGB_MODEL - This folder contains our model trained on RGB data saved as a h5 fil
 
 NDVI - This folder contains the code for NDVI_calculation. To see this run run_this.py. In case the outputs are not visible, we have provided an output folder that contains the results 
 
+Segmentation Masking - This folder contains the code we use to apply our pixel wise classification models to the Geo-FS inputs. We have provided the weights file, along with the file to train the model. To run this model use run_this.py. The outputs are provided in the output directory 
+
+Zero Shot Classification - This folder contains the code we use to apply Zero Shot Classification to our models. run_this.py loads images from the images_test folder and applies them to the images. zero-shot-classification.py contains the code for the entire data instead of a subset. 
+
+EDA - This folder contains the code to perfom eda on our data. run_this.py loads the test images, and displays class metrics, and also displays different band combinations present in the multispectral data. 
