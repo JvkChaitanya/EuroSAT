@@ -13,3 +13,5 @@ Segmentation Masking - This folder contains the code we use to apply our pixel w
 Zero Shot Classification - This folder contains the code we use to apply Zero Shot Classification to our models. run_this.py loads images from the images_test folder and applies them to the images. zero-shot-classification.py contains the code for the entire data instead of a subset. 
 
 EDA - This folder contains the code to perfom eda on our data. run_this.py loads the test images, and displays class metrics, and also displays different band combinations present in the multispectral data. 
+
+Conv3D - This folder contains the code we use to apply classification using Conv3D models. demo.py loads images from the test folder and applies them to the images. train_model_conv3D.ipynb contains the code to train the model.(change directory and model paths accordingly before running the code files)
